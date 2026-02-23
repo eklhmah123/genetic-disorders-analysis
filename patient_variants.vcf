@@ -1,0 +1,14 @@
+##fileformat=VCFv4.3
+##fileDate=20250223
+##source=ClinVar_annotation
+##reference=GRCh38
+##contig=<ID=chr7,length=159345973>
+##contig=<ID=chr17,length=83257441>
+##contig=<ID=chrX,length=156040895>
+##INFO=<ID=CLNSIG,Number=.,Type=String,Description="Clinical significance">
+##INFO=<ID=CLNDN,Number=.,Type=String,Description="Disease name">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">           
+#CHROM  	POS	      ID	     REF	                                       ALT	  QUAL	    FILTER	INFO	                                               FORMAT	       PATIENT_01
+chr7	        117559591     rs113993960    CTT	                                       C	  250	     PASS       CLNSIG=Pathogenic;CLNDN=Cystic_fibrosis	               GT	         1/1
+chr17	        43094317      rs80359874     GATTCAGACTCCCCTCATGATGATGCATCAGAACCTAACAG	       G	  250	     PASS	CLNSIG=Pathogenic;CLNDN=Hereditary_breast_cancer       GT                0/1
+chrX	        31169518	.	     T	                                               .	  250	     PASS	CLNSIG=Pathogenic;CLNDN=Duchenne_muscular_dystrophy    GT	         1/0
